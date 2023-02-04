@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#testimonials {
+    background-color: #fafbfc;
+    padding: 5rem 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.testimonials__top,
+.testimonials__container {
+    padding: 0 1rem;
+}
+
+.testimonials__top {
+    text-align: center;
+}
+
+.testimonials__top h1 {
+    font-size: 2rem;
+    color: #071e55;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+.testimonials__top p {
+    color: #7c8595;
+    font-size: 1.1rem;
+}
+
+.testimonial__item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
+    z-index: 99;
+}
+
+.testimonial__info {
+    background-color: #fff;
+    padding: 5.5rem 2rem 2rem 2rem;
+    margin-top: -4rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
+}
+
+.testimonial__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.testimonials__container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial__info p {
+    color: #7c8595;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.testimonial__info h6 {
+    color: #1e90ff;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.testimonial__rating {
+    text-align: center;
+    color: #fdcc28;
+}
+
+@media (max-width: 768px) {
+    .testimonials__container {
+        flex-direction: column;
+    }
+}
